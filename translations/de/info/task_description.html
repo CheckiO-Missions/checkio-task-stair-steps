@@ -1,0 +1,45 @@
+<p>
+    Es gibt eine Treppe mit N Stufen und zwei Plattformen; eine am Anfang, die andere am Ende der Treppe. 
+    Auf jeder Stufe steht eine Zahl (von -100 bis 100, mit Ausnahme von 0)
+    Auf beiden Plattformen stehen Nullen.
+    Sie beginnen die Treppe von der ersten Plattform aus hinaufzusteigen, um auf der zweiten die Spitze zu erreichen.
+    Sie können entweder auf die nächste Stufe oder auf die nächste Stufe plus eins gehen.
+    Sie müssen den besten Weg finden, um die Summe der Zahlen auf der Treppe auf Ihrem Weg nach oben zu maximieren und die Endsumme zurückzugeben.
+</p>
+
+<p style="text-align: center;">
+    <img class="for_info_only" title="stair-steps" src="{{MEDIA}}stair-steps.png" alt="stair-steps" width="450px"/>
+    <img class="for_editor_only" title="stair-steps" src="{{MEDIA}}stair-steps.png" alt="stair-steps" width="380px"/>
+</p>
+
+<p>
+   <strong>Eingabe: </strong> Zahlen auf jeder Treppe als Liste von Ganzzahlen.
+</p>
+
+<p>
+   <strong>Ausgabe: </strong> Die Endsumme für den besten Weg als ganze Zahl.
+</p>
+
+
+<div class="for_info_only">
+    <p>
+        <strong>Beispiel:</strong>
+    </p>
+    <pre class="brush: python">checkio([5, -3, -1, 2]) == 6
+checkio([5, 6, -10, -7, 4]) == 8
+checkio([-11, 69, 77, -51, 23, 67, 35, 27, -25, 95]) == 393
+checkio([-21, -23, -69, -67, 1, 41, 97, 49, 27]) == 125</pre>
+</div>
+
+<p class="for_info_only">
+   <strong>Wie es verwendet wird: </strong>
+    Dies ist ein klassisches Beispiel für ein Optimierungsproblem.
+    Es zeigt Ihnen den Unterschied zwischen den verschiedenen Methoden der Programmierung, wie z.B. der dynamischen Programmierung und der Rekursion.
+</p>
+
+
+<p>
+   <strong>Vorbedingung:</strong><br>
+    0 &lt; len(Schritte) &le; 10<br>
+    all(-100 &lt; x &lt; 100 und x für x in Schritte)
+</p>
